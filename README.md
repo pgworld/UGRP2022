@@ -31,7 +31,6 @@
 ## 05_infer
 > ./build.sh
 > 
-> ./ann_inf_comp [input_file] [script_module] [threshold] // ex)./ann_inf_comp dedup 
-> 
-../04_training/model/model_hash_small_128_4096_2048_1_0.001.torchsave.pt 128
+> ./ann_inf_comp [input_file] [script_module] [threshold] // ex)./ann_inf_comp dedup ../04_training/model/model_hash_small_128_4096_2048_1_0.001.torchsave.pt 128
+
 infer를 수행할 때에는 libtorch init이 필요하므로, 기존에 했던 deepsketch build 방식대로 수행하면 된다.
