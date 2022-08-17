@@ -228,7 +228,6 @@ int main(int argc, char* argv[]) {
 			count++;
 		}
 		for (int j: cluster[i]) {
-			cout << j << "/" << count << endl;
 			double r = rand() / (double)RAND_MAX;
 			if (r < ((int)cluster[i].size() - 1000) / (double)cluster[i].size()) continue;
 
